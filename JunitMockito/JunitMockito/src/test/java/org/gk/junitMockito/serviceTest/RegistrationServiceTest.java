@@ -18,6 +18,7 @@ public class RegistrationServiceTest {
 		LOG.info("This Will Be Printed On Info");
 
 		Assertions.assertEquals(1, 1);
+		Assertions.assertTrue(true);
 
 		LOG.info("Appending string: {}.", "Hello, World");
 	}
