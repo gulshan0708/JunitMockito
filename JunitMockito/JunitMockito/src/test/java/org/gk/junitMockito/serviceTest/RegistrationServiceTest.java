@@ -19,6 +19,7 @@ public class RegistrationServiceTest {
 
 		Assertions.assertEquals(1, 1);
 		Assertions.assertTrue(true);
+		Assertions.assertFalse(false);
 
 		LOG.info("Appending string: {}.", "Hello, World");
 	}
